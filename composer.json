@@ -1,0 +1,19 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^10.1",
+        "asispts/ptscs": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bowling\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "require": {
+        "ext-readline": "*"
+    }
+}
